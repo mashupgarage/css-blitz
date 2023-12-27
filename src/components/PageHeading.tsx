@@ -47,7 +47,7 @@ const PageHeading = ({ children, level = 1 }: PageHeadingProps) => {
   }
 
   return (
-    <h1 className='text-5xl font-bold text-center'>
+    <h1 className='text-5xl font-bold text-center text-indigo-500'>
       {children}
     </h1>
   )
