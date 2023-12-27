@@ -2,7 +2,7 @@ import React from 'react'
 
 type PageHeadingProps = {
   children: string,
-  level?: Number
+  level?: number
 }
 
 const PageHeading = ({ children, level = 1 }: PageHeadingProps) => {

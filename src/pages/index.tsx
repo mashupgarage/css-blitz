@@ -1,6 +1,6 @@
-import React from "react"
-import type { HeadFC, PageProps } from "gatsby"
-import PageHeading from "../components/PageHeading"
+import React from 'react'
+import type { HeadFC, PageProps } from 'gatsby'
+import PageHeading from '../components/PageHeading'
 
 const IndexPage: React.FC<PageProps> = () => {
   return (
