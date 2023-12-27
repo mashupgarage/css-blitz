@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.blitz-content {
+  @apply mx-auto px-8 leading-loose;
+
+  > ul {
+    @apply list-disc list-inside first:border-b pb-8;
+  }
+
+  > h2 {
+    @apply text-3xl font-bold mb-4;
+  }
+
+  code {
+    @apply bg-gray-100 rounded px-2 py-1;
+  }
+}
