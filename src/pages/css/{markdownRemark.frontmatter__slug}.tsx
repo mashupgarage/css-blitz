@@ -58,7 +58,7 @@ const CSSBlitz: React.FC<CSSBlitzProps> = ({ data }) => {
               {entries.map(({ name, url }) => {
                 return (
                   <li key={name}>
-                    <a href={url} target='_blank' className='text-blue-500 hover:underline'>{name}</a>
+                    <a href={url} target='_blank' className='text-blue-500 hover:underline' rel="noreferrer">{name}</a>
                   </li>
                 )
               })}
