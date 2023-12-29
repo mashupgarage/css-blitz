@@ -1,16 +1,25 @@
+@import '@fontsource/space-grotesk';
+@import '@fontsource/space-grotesk/500.css';
+@import '@fontsource/space-grotesk/600.css';
+@import '@fontsource/space-grotesk/700.css';
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+body {
+  @apply bg-gray-50;
+}
+
 .blitz-content {
-  @apply mx-auto px-8 leading-loose;
+  @apply w-full mx-auto lg:px-8 leading-loose border-b last:border-b-0 mb-8;
 
   > ul {
     @apply list-disc list-inside first:border-b pb-8;
   }
 
   > h2 {
-    @apply text-3xl font-bold mb-4;
+    @apply text-4xl font-bold mb-4 text-indigo-500;
   }
 
   code {

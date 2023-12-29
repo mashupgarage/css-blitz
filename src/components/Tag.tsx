@@ -7,13 +7,13 @@ type TagProps = {
 
 const Tag = ({ type }: TagProps) => {
   const tagColor = {
-    css: 'bg-amber-500 text-black',
-    react: 'bg-blue-500 text-white',
-    ruby: 'bg-red-500 text-white',
-    elixir: 'bg-purple-500 text-white'
+    css: 'bg-amber-200 text-black',
+    react: 'bg-blue-200 text-white',
+    ruby: 'bg-red-200 text-white',
+    elixir: 'bg-purple-200 text-white'
   }
   return (
-    <article className={`mx-auto font-medium rounded-full px-3 py-1 inline-flex tracking-widest ${tagColor[type]}`}>
+    <article className={`font-medium rounded-full px-3 inline-flex tracking-widest ${tagColor[type]}`}>
       {type}
     </article>
   )

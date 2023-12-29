@@ -5,24 +5,27 @@ import BlitzType from '../types/blitz'
 import { Link } from 'gatsby'
 
 type CardProps = {
-  slug: string,
-  title: string,
-  date: string,
+  date: string
+  slug: string
+  title: string
   type: BlitzType
+  author: string
   image: {
     publicURL: string
   }
 }
 
-const Card = ({ slug, title, date, type, image }: CardProps) => {
+const Card = ({ date, slug, title, type, image, author }: CardProps) => {
   return (
     <Link to={`/${type}${slug}`}>
-      <article className='p-4 pb-16 w-96 border-b border-black'>
-        <img src={image.publicURL} alt={title} />
-        <div className='flex flex-col items-center justify-between gap-4'>
-          <PageHeading level={2}>{title}</PageHeading>
+      <article className='px-4 py-8 w-96 hover:bg-white hover:shadow-lg transition-all duration ease-out rounded'>
+        <p className='uppercase text-sm text-gray-400 tracking-widest font-semibold leading-none'>{date}</p>
+        <PageHeading level={2} classes='mb-2'>{title}</PageHeading>
+        <p>{author}</p>
+        <img src={image.publicURL} alt={title} className='h-96 w-auto object-cover mb-4' />
+        <section className='flex items-center justify-start gap-4'>
           <Tag type={type} />
-        </div>
+        </section>
       </article>
     </Link>
   )

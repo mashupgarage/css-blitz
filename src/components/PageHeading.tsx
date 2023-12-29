@@ -2,13 +2,15 @@ import React from 'react'
 
 type PageHeadingProps = {
   children: string,
-  level?: number
+  level?: number,
+  classes?: string
 }
 
-const PageHeading = ({ children, level = 1 }: PageHeadingProps) => {
+const PageHeading = ({ children, level = 1, classes = '' }: PageHeadingProps) => {
+  const baseClasses = `font-bold text-indigo-500 ${classes}`
   if (level === 2) {
     return (
-      <h2 className='text-4xl font-bold text-center'>
+      <h2 className={`${baseClasses} text-4xl`}>
         {children}
       </h2>
     )
@@ -16,7 +18,7 @@ const PageHeading = ({ children, level = 1 }: PageHeadingProps) => {
 
   if (level === 3) {
     return (
-      <h3 className='text-3xl font-bold text-center'>
+      <h3 className={`${baseClasses} text-3xl`}>
         {children}
       </h3>
     )
@@ -24,7 +26,7 @@ const PageHeading = ({ children, level = 1 }: PageHeadingProps) => {
 
   if (level === 4) {
     return (
-      <h4 className='text-2xl font-bold text-center'>
+      <h4 className={`${baseClasses} text-2xl`}>
         {children}
       </h4>
     )
@@ -32,7 +34,7 @@ const PageHeading = ({ children, level = 1 }: PageHeadingProps) => {
 
   if (level === 5) {
     return (
-      <h5 className='text-xl font-bold text-center'>
+      <h5 className={`${baseClasses} text-xl`}>
         {children}
       </h5>
     )
@@ -40,14 +42,14 @@ const PageHeading = ({ children, level = 1 }: PageHeadingProps) => {
 
   if (level === 6) {
     return (
-      <h6 className='text-lg font-bold text-center'>
+      <h6 className={`${baseClasses} text-lg`}>
         {children}
       </h6>
     )
   }
 
   return (
-    <h1 className='text-5xl font-bold text-center text-indigo-500'>
+    <h1 className={`${baseClasses} text-5xl`}>
       {children}
     </h1>
   )
