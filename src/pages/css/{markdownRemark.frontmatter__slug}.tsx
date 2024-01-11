@@ -31,6 +31,7 @@ const CSSBlitz: React.FC<CSSBlitzProps> = ({ data }) => {
   const { markdownRemark } = data
   const { frontmatter, html } = markdownRemark
   const { date, title, codepen, image, author, github, entries } = frontmatter
+
   return (
     <>
       <Nav />
@@ -73,14 +74,20 @@ const CSSBlitz: React.FC<CSSBlitzProps> = ({ data }) => {
 export default CSSBlitz
 
 export const Head: HeadFC<CSSBlitzProps['data']> = ({ data }) => {
+  const isTemplate = data.markdownRemark.frontmatter.title === 'Template'
   return (
-    <title>CSS Blitz - {data.markdownRemark.frontmatter.title}</title>
+    <>
+      <title>CSS Blitz - {data.markdownRemark.frontmatter.title}</title>
+      {isTemplate && <meta name='robots' content='noindex' />}
+    </>
   )
 }
 
 export const pageQuery = graphql`
   query($id: String!) {
-    markdownRemark(id: { eq: $id }) {
+    markdownRemark(
+      id: { eq: $id }
+    ) {
       html
       frontmatter {
         date(formatString: "MMMM DD, YYYY")

@@ -2,8 +2,9 @@ import type { GatsbyConfig } from 'gatsby'
 
 const config: GatsbyConfig = {
   siteMetadata: {
-    title: 'blitz',
-    siteUrl: 'https://www.yourdomain.tld'
+    title: 'Mashup Garage Blitz',
+    description: `A fun, semi-weekly challenge where we code a UI in 15-20 minutes and share our work. Learn CSS and HTML from basic to advanced and improve your design skills with CSS Blitz.`,
+    siteUrl: 'https://blitz.mashupgarage.com'
   },
   // More easily incorporate content into your pages through automatic TypeScript type generation and better GraphQL IntelliSense.
   // If you use VSCode you can also use the GraphQL plugin
