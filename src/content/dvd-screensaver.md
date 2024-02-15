@@ -8,10 +8,18 @@ codepen: 'https://codepen.io/raaims/pen/jXNNMz'
 author: 'Raims Cabrera'
 github: 'https://github.com/raaims'
 entries:
-  - name: 'Test1'
-    url: 'https://google.com'
-  - name: 'Test2'
-    url: 'https://google.com'
+  - name: 'Kirby'
+    url: 'https://codepen.io/kerdaddyb/pen/mdoaado?editors=1100'
+  - name: 'Kyle'
+    url: 'https://codepen.io/Kyle-Jemino/pen/WNmLLvQ?editors=1111'
+  - name: 'Via'
+    url: 'https://codepen.io/Vianca-Andrea-Maulion/pen/ExMGGab'
+  - name: 'Tristan John'
+    url: 'https://codepen.io/tristanjohn/pen/RwdEEwv'
+  - name: 'El'
+    url: 'https://codepen.io/El-Razin-Jo/pen/poYqqvE'
+  - name: 'Kim'
+    url: 'https://codepen.io/Kim-Klinton-Vale/pen/WNmLLbQ'
 ---
 
 * ⌛ You have 15 minutes to implement this, take your time (but not too much)!
