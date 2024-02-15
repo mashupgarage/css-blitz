@@ -57,16 +57,19 @@ export const Head: HeadFC = () => <title>Mashup Blitz</title>
 export const pageQuery = graphql`
   query IndexQuery {
     allMarkdownRemark(
-      sort: {frontmatter: {date: ASC}}
       filter: {frontmatter: {title: {ne: "Template"}}}
+      sort: {frontmatter: {date: ASC}}
     ) {
       nodes {
         frontmatter {
-          author
-          date(formatString: "MMM DD, YYYY")
           title
-          type
           slug
+          date(formatString: "MMM DD, YYYY")
+          type
+          author
+          image {
+            publicURL
+          }
         }
       }
     }
