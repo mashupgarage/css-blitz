@@ -8,8 +8,20 @@ codepen: 'https://codepen.io/redlpd-mg/pen/vYMYNVM'
 author: 'Red Lapida'
 github: 'https://github.com/mashupgarage/css-blitz/pull/2'
 entries:
-  - name: 'N/A'
-    url: 'https://example.com'
+  - name: 'Raims'
+    url: 'https://codepen.io/raaims/pen/oNONLrm?editors=1100'
+  - name: 'Kirbs'
+    url: https://codepen.io/kerdaddyb/pen/RwOwRmz?editors=1100'
+  - name: 'Patrick'
+    url: 'https://codepen.io/janpatrick-dev/pen/YzMzWob'
+  - name: 'Ady'
+    url: 'https://codepen.io/adycastueras/pen/RwOwRzX?editors=1100'
+  - name: 'Ash'
+    url: 'https://codepen.io/ashleeeeeeyyyyy/pen/VwNwjJN'
+  - name: 'Via'
+    url: 'https://codepen.io/Vianca-Andrea-Maulion/pen/OJGJXKy'
+  - name: 'Kennedy'
+    url: 'https://codepen.io/Kennedy-De-Vera/pen/rNbNLXJ'
 ---
 
 * ⌛ You have 15 minutes to implement this, take your time (but not too much)!
