@@ -64,7 +64,7 @@ export const pageQuery = graphql`
         frontmatter {
           title
           slug
-          date(formatString: "MMM DD, YYYY")
+          date
           type
           author
           image {
