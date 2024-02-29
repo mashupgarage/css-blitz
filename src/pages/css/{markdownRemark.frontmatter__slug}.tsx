@@ -90,7 +90,7 @@ export const pageQuery = graphql`
     ) {
       html
       frontmatter {
-        date(formatString: "MMMM DD, YYYY")
+        date
         author
         github
         slug

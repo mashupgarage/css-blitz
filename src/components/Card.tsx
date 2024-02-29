@@ -3,6 +3,7 @@ import PageHeading from './PageHeading'
 import Tag from './Tag'
 import BlitzType from '../types/blitz'
 import { Link } from 'gatsby'
+import { format } from 'date-fns'
 
 type CardProps = {
   date: string
@@ -16,10 +17,23 @@ type CardProps = {
 }
 
 const Card = ({ date, slug, title, type, image, author }: CardProps) => {
+  const getDate = (): React.ReactNode => {
+    const newDate = date
+    const splittedDate = newDate.split('-')
+
+    if (`${splittedDate[1]}-${splittedDate[2]}` === '02-29') {
+      return `Feb 29, ${splittedDate[0]}`
+    }
+
+    return format(newDate, 'MMM dd, yyyy')
+  }
+
   return (
     <Link to={`/${type}${slug}`}>
       <article className='px-4 py-8 w-96 hover:bg-white hover:shadow-lg transition-all duration ease-out rounded'>
-        <p className='uppercase text-sm text-gray-400 tracking-widest font-semibold leading-none'>{date}</p>
+        <p className='uppercase text-sm text-gray-400 tracking-widest font-semibold leading-none'>
+          {getDate()}
+        </p>
         <PageHeading level={2} classes='mb-2'>{title}</PageHeading>
         <p>{author}</p>
         <img src={image.publicURL} alt={title} className='h-96 w-auto object-cover mb-4' />
