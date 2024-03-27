@@ -8,8 +8,18 @@ codepen: "https://codepen.io/kirblitz/pen/ExJgPvx"
 author: "Kirby Borromeo"
 github: "https://github.com/kerdaddyb"
 entries:
-  - name: 'Test'
-    url: 'www.example.com'
+  - name: 'Ady'
+    url: 'https://codepen.io/adycastueras/pen/rNbMMGE'
+  - name: 'Franco'
+    url: 'https://codepen.io/notco/pen/PogGGJO'
+  - name: 'Patrick'
+    url: 'https://codepen.io/janpatrick-dev/pen/gOywwXG'
+  - name: 'Kim'
+    url: 'https://codepen.io/Kim-Klinton-Vale/pen/WNWGGXK'
+  - name: 'Via'
+    url: 'https://codepen.io/Vianca-Andrea-Maulion/pen/bGJwwoM'
+  - name: 'Tams'
+    url: 'https://codepen.io/tkevinmatt/pen/eYoddjq'
 ---
 
 - ⌛ You have 15 minutes to implement this, take your time (but not too much)!

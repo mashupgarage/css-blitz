@@ -1,6 +1,6 @@
 ---
 slug: '/hamburger-menu'
-date: '2023-02-29'
+date: '2024-02-29'
 title: 'Hamburger Menu'
 type: 'css'
 image: '../images/hamburger-menu.gif'
