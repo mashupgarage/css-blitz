@@ -1,6 +1,6 @@
 ---
 slug: '/dvd-screensaver'
-date: '2023-01-04'
+date: '2024-01-04'
 title: 'DVD Screensaver'
 type: 'css'
 image: '../images/dvd-screensaver.gif'
