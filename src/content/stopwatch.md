@@ -8,10 +8,16 @@ codepen: 'https://codepen.io/janpatrick-dev/pen/JjVJVmL'
 author: 'Jan Patrick Palacio'
 github: 'https://github.com/janpatrick-dev'
 entries:
-  - name: 'Test1'
-    url: 'https://example.com'
-  - name: 'Test2'
-    url: 'https://example.com'
+  - name: 'Kim'
+    url: 'https://codepen.io/Kim-Klinton-Vale/pen/ExJvWay'
+  - name: 'Ady'
+    url: 'https://codepen.io/adycastueras/pen/LYvjWEy'
+  - name: 'Franco'
+    url: 'https://codepen.io/notco/pen/vYMJxEp'
+  - name: 'Joshua'
+    url: 'https://codepen.io/SnorlaxCodes/pen/OJGjpVB'
+  - name: 'Tristan'
+    url: 'https://codepen.io/tristanjohn/pen/yLroMJy'
 ---
 
 * ⌛ You have 15 minutes to implement this, take your time (but not too much)!
