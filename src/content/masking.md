@@ -1,11 +1,11 @@
 ---
 slug: '/template'
-date: '2023-01-03'
-title: 'Template'
+date: '2024-04-11'
+title: 'CSS Masking'
 type: 'css'
-image: '../images/mg-logo.svg'
-codepen: 'test'
-author: 'test'
+image: '../images/jamesbond.gif'
+codepen: 'https://codepen.io/Kim-Klinton-Vale/pen/XWQVNgN'
+author: 'Kim Vale'
 github: 'test'
 entries:
   - name: 'Test1'
@@ -24,5 +24,5 @@ entries:
 
 ## Tips and hints
 
-- Tip 1
-- Tip 2
+- Gradial gradient is used as mask image.
+- Use `--x` and `--y` as variables for the horizontal and vertical positions of the radial gradient circle in order for the JS to work.
