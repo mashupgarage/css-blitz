@@ -4,7 +4,7 @@ date: '2023-04-25'
 title: 'Toggle Switch'
 type: 'css'
 image: '../images/toggle-switch.gif'
-codepen: 'https://codepen.io/Vianca-Andrea-Maulion/pen/gOyzOPB'
+codepen: 'https://codepen.io/viamaulion/pen/gOyzOPB'
 author: 'Vianca Andrea Maulion'
 github: 'https://github.com/viancamaulion'
 entries:
