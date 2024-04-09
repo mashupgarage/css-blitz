@@ -3,7 +3,7 @@ slug: '/toggle-switch'
 date: '2023-04-25'
 title: 'Toggle Switch'
 type: 'css'
-image: '../images/toggle-switch.svg'
+image: '../images/toggle-switch.gif'
 codepen: 'https://codepen.io/Vianca-Andrea-Maulion/pen/gOyzOPB'
 author: 'Vianca Andrea Maulion'
 github: 'https://github.com/viancamaulion'
@@ -24,5 +24,5 @@ entries:
 
 ## Tips and hints
 
-- Only edit the `input` type selector
-- Use pseudo-selectors like `:checked` and pseudo-elements like `::after`
+- Only edit the `input` type selector.
+- Use pseudo-selectors like `&:checked` and pseudo-elements like `&:after`.
