@@ -1,5 +1,5 @@
 ---
-slug: '/template'
+slug: '/james-bond'
 date: '2024-04-11'
 title: 'CSS Masking'
 type: 'css'
