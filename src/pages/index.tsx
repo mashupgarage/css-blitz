@@ -38,7 +38,7 @@ const IndexPage: React.FC<IndexPageProps> = ({ data }) => {
           <p className='lg:w-1/2 leading-loose mb-4 mx-auto'>It's a great opportunity for developers to learn basic to advanced CSS and HTML -- which we know is still quite a challenge for most people even now. At the same time, for experienced designers/developers to work on efficient ways to approach things.</p>
           <p className='lg:w-1/2 leading-loose mx-auto'>When you think you know a lot about web designing, you are actually wrong with CSS Blitz.</p>
         </section>
-        <section className='flex flex-col items-center justify-between'>
+        <section className='grid grid-cols-3 items-center justify-between'>
           {nodes.map((node) => {
             return (
               <Card {...node.frontmatter} key={node.frontmatter.slug} />
@@ -58,7 +58,7 @@ export const pageQuery = graphql`
   query IndexQuery {
     allMarkdownRemark(
       filter: {frontmatter: {title: {ne: "Template"}}}
-      sort: {frontmatter: {date: ASC}}
+      sort: {frontmatter: {date: DESC}}
     ) {
       nodes {
         frontmatter {
