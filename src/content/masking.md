@@ -8,10 +8,18 @@ codepen: 'https://codepen.io/Kim-Klinton-Vale/pen/XWQVNgN'
 author: 'Kim Vale'
 github: 'test'
 entries:
-  - name: 'Test1'
-    url: 'https://example.com'
-  - name: 'Test2'
-    url: 'https://example.com'
+  - name: 'Raims Cabrera'
+    url: 'https://codepen.io/raaims/pen/poBKjMy'
+  - name: 'Vianca Maulion'
+    url: 'https://codepen.io/viamaulion/pen/vYMrLYQ'
+  - name: 'notco'
+    url: 'https://codepen.io/notco/pen/RwOJWzq'
+  - name: 'El Razin'
+    url: 'https://codepen.io/notco/pen/RwOJWzq'
+  - name: 'Jan Patrick'
+    url: 'https://codepen.io/janpatrick-dev/pen/gOyKaNE'
+  - name: 'Red'
+    url: 'https://codepen.io/redlpd/pen/YzMvymJ'
 ---
 
 * ⌛ You have 15 minutes to implement this, take your time (but not too much)!
