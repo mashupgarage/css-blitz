@@ -24,5 +24,9 @@ entries:
 
 ## Tips and hints
 
-- Only edit the `input` type selector.
-- Use pseudo-selectors like `&:checked` and pseudo-elements like `&:after`.
+- Only edit the `input`'s css selector.
+- Use [`&` nesting pseudo selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/Nesting_selector) like `&:checked` and `&:after`.
+- [Guides] During darkmode, change the:
+  1. Label's bg color and its `&:after`'s horizontal position
+  2. SVG's colors
+  3. div's bg color
