@@ -1,6 +1,6 @@
 ---
 slug: '/toggle-switch'
-date: '2023-04-25'
+date: '2024-04-25'
 title: 'Toggle Switch'
 type: 'css'
 image: '../images/toggle-switch.gif'
