@@ -8,6 +8,10 @@ codepen: "https://codepen.io/El-Razin-Jo/pen/YzbeJjb"
 author: "El-Razin Jo"
 github: "https://github.com/xinjo21"
 entries:
+  - name: "Test1"
+    url: "https://example.com"
+  - name: "Test2"
+    url: "https://example.com"
 ---
 
 - ⌛ You have 15 minutes to implement this, take your time (but not too much)!
