@@ -40,3 +40,4 @@ entries:
 
 - Hide the radio button
 - Use `~`(general sibling combinator) to style the elements based on the state of the radio inputs
+- Use `tranform` for positioning of left, right and center cards
