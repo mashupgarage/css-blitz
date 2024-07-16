@@ -4,7 +4,7 @@ date: "2024-07-18"
 title: "Core Memories"
 type: "css"
 image: "../images/css-core-memories.gif"
-codepen: "https://codepen.io/zedrictron/pen/gONaaem"
+codepen: "https://codepen.io/zedrictron/pen/RwzWGpj"
 author: "Jed Zedric Asuncion"
 github: "https://github.com/zedrictron"
 # entries:
