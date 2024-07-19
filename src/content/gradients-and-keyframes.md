@@ -7,11 +7,17 @@ image: "../images/css-core-memories.gif"
 codepen: "https://codepen.io/zedrictron/pen/RwzWGpj"
 author: "Jed Zedric Asuncion"
 github: "https://github.com/zedrictron"
-# entries:
-#   - name: "Test1"
-#     url: "https://example.com"
-#   - name: "Test2"
-#     url: "https://example.com"
+entries:
+  - name: "EJ"
+    url: "https://codepen.io/ejllovido/pen/WNqrzBd"
+  - name: "Kirby"
+    url: "https://codepen.io/kerdaddyb/pen/bGPEvzr"
+  - name: "Via"
+    url: "https://codepen.io/viancamaulion/pen/Yzowamw"
+  - name: "Mikee"
+    url: "https://codepen.io/mikmik28/pen/vYqLRqG"
+  - name: "Joseph"
+    url: "https://codepen.io/josephseph/pen/MWMKVdq"
 ---
 
 - ⌛ You have 15 minutes to implement this, take your time (but not too much)!
