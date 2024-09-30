@@ -36,6 +36,5 @@ entries:
 
 ## Tips and hints
 
-- Just populate the needed tailwind codes on the keywords ADD_TAILWIND_CODE_HERE found in the HTML Tab
-
+- Just populate the needed tailwind codes on the keywords `ADD_TAILWIND_CODE_HERE` found in the HTML Tab
 - After opening the link, just straight up edit the thing it's alright it will create a new link for your own copy. Then just click Share and reply it here to share your own work!
